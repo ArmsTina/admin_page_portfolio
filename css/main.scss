@@ -1,0 +1,54 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.sidebar {
+  position: fixed;
+  background-color: #494cb4;
+  width: 150px;
+  height: 100vh;
+  color: white;
+  transform: translateX(-115px);
+  transition: all 0.5s;
+  z-index: 3;
+}
+
+.sidebar i {
+  transition: all 0.5s;
+  transform: translateX(90px);
+}
+
+.sidebar div {
+  margin: 10px 0px 0px 10px;
+}
+
+.sidebar:hover {
+  transform: translateX(0px);
+  i {
+    transform: translateX(0px);
+  }
+}
+
+.searchbar {
+  input {
+    border: 1px solid grey;
+    padding: 5px;
+    width: 200px;
+    transition: width 1s;
+  }
+
+  button {
+    background-color: #343a40;
+  }
+
+  input:focus {
+    width: 400px;
+  }
+}
+
+.nav-item {
+  i {
+    padding: 2px 5px 0 0;
+  }
+}
