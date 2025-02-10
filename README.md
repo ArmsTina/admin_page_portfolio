@@ -5,6 +5,8 @@ This project is a responsive **Dashboard UI** built with **Bootstrap, SCSS, and 
 
 README was revised by ChatGPT.
 
+⚠️ **Visual Only** - This website contains only UI components with no backend functionality.
+
 ## 🚀 Technologies Used
 
 - **[Bootstrap 5.3.3](https://getbootstrap.com/)** – For responsive layout and UI components.
@@ -30,7 +32,6 @@ README was revised by ChatGPT.
 ✅ **Dashboard Cards** - Displays earnings, tasks, and requests.  
 ✅ **Earnings Chart** - Uses **Chart.js** to visualize data.  
 ✅ **SCSS Styling** - Clean and maintainable styles with SCSS.
-⚠️ Visual Only - This website contains only UI components with no backend functionality.
 
 ## 📌 Installation & Usage
 
